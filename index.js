@@ -31,3 +31,8 @@ function save() {
     count = 0;
 }
 
+
+// Add event listeners for both buttons, INCREMENT and SAVE.
+incrementBtn.addEventListener("click", increment);
+saveBtn.addEventListener("click", save);
+
