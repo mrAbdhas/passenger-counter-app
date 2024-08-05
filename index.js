@@ -15,3 +15,19 @@ saveEl.setAttribute("id", "save-el");
 // Append it to the body.
 document.body.appendChild(saveEl);
 
+let count = 0;
+
+// Add functions, that handles functionalities of the buttons.
+function increment() {
+    count = count + 1;
+    countEl.textContent = count;
+}
+
+function save() {
+    let = countStr = count + " - ";
+
+    saveEl.textContent += countStr;
+    countEl.textContent = 0;
+    count = 0;
+}
+
